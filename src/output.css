@@ -29,7 +29,6 @@
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
     --font-weight-medium: 500;
-    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-wider: 0.05em;
     --tracking-widest: 0.1em;
@@ -227,23 +226,20 @@
   .mt-\[60px\] {
     margin-top: 60px;
   }
-  .mt-\[100px\] {
-    margin-top: 100px;
-  }
-  .mt-\[200px\] {
-    margin-top: 200px;
-  }
   .mt-\[300px\] {
     margin-top: 300px;
   }
-  .mt-\[400px\] {
-    margin-top: 400px;
-  }
-  .mt-\[px\] {
-    margin-top: px;
-  }
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
+  }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
+  }
+  .mr-30 {
+    margin-right: calc(var(--spacing) * 30);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -263,20 +259,29 @@
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
   }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
   .ml-16 {
     margin-left: calc(var(--spacing) * 16);
   }
-  .ml-28 {
-    margin-left: calc(var(--spacing) * 28);
-  }
-  .ml-30 {
-    margin-left: calc(var(--spacing) * 30);
-  }
-  .ml-33 {
-    margin-left: calc(var(--spacing) * 33);
-  }
   .ml-35 {
     margin-left: calc(var(--spacing) * 35);
+  }
+  .ml-40 {
+    margin-left: calc(var(--spacing) * 40);
+  }
+  .ml-45 {
+    margin-left: calc(var(--spacing) * 45);
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
+  }
+  .ml-57 {
+    margin-left: calc(var(--spacing) * 57);
+  }
+  .ml-60 {
+    margin-left: calc(var(--spacing) * 60);
   }
   .ml-\[150px\] {
     margin-left: 150px;
@@ -286,9 +291,6 @@
   }
   .flex {
     display: flex;
-  }
-  .grid {
-    display: grid;
   }
   .table {
     display: table;
@@ -308,23 +310,17 @@
   .h-\[60px\] {
     height: 60px;
   }
-  .h-\[80px\] {
-    height: 80px;
-  }
-  .h-\[280px\] {
-    height: 280px;
+  .w-3 {
+    width: calc(var(--spacing) * 3);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
   }
+  .w-330 {
+    width: calc(var(--spacing) * 330);
+  }
   .w-350 {
     width: calc(var(--spacing) * 350);
-  }
-  .w-\[0\%\] {
-    width: 0%;
-  }
-  .w-\[1px\] {
-    width: 1px;
   }
   .w-\[25\%\] {
     width: 25%;
@@ -347,12 +343,6 @@
   .w-\[70\%\] {
     width: 70%;
   }
-  .w-\[80\%\] {
-    width: 80%;
-  }
-  .w-\[80\] {
-    width: 80;
-  }
   .w-\[85\%\] {
     width: 85%;
   }
@@ -362,26 +352,14 @@
   .w-\[95\%\] {
     width: 95%;
   }
-  .w-\[125px\] {
-    width: 125px;
-  }
   .w-\[150px\] {
     width: 150px;
   }
   .w-\[190px\] {
     width: 190px;
   }
-  .w-\[200px\] {
-    width: 200px;
-  }
-  .w-\[480px\] {
-    width: 480px;
-  }
   .w-\[1400px\] {
     width: 1400px;
-  }
-  .max-w-6xl {
-    max-width: var(--container-6xl);
   }
   .border-collapse {
     border-collapse: collapse;
@@ -398,14 +376,8 @@
   .justify-between {
     justify-content: space-between;
   }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
@@ -456,11 +428,8 @@
   .bg-pink-300 {
     background-color: var(--color-pink-300);
   }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
-  .px-3 {
-    padding-inline: calc(var(--spacing) * 3);
+  .px-1 {
+    padding-inline: calc(var(--spacing) * 1);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -471,35 +440,14 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
   }
-  .px-20 {
-    padding-inline: calc(var(--spacing) * 20);
-  }
-  .px-23 {
-    padding-inline: calc(var(--spacing) * 23);
-  }
-  .px-27 {
-    padding-inline: calc(var(--spacing) * 27);
-  }
-  .px-28 {
-    padding-inline: calc(var(--spacing) * 28);
-  }
   .px-30 {
     padding-inline: calc(var(--spacing) * 30);
-  }
-  .px-36 {
-    padding-inline: calc(var(--spacing) * 36);
-  }
-  .px-38 {
-    padding-inline: calc(var(--spacing) * 38);
-  }
-  .px-40 {
-    padding-inline: calc(var(--spacing) * 40);
-  }
-  .px-\[145px\] {
-    padding-inline: 145px;
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -616,11 +564,6 @@
       @media (hover: hover) {
         color: #010202;
       }
-    }
-  }
-  .md\:grid-cols-3 {
-    @media (width >= 48rem) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .md\:flex-row {
